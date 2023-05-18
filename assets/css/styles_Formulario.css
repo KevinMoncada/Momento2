@@ -1,0 +1,172 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/assets/imagenes/imagenes/panoramic-shot-beautiful-nature-kauai-island-hawaii.jpg);
+  background-color: rgba(168, 162, 162, 0.3);
+  font-size: medium;
+  overflow-x: hidden;
+}
+
+.enigmat {
+  position: absolute;
+  top: 25px;
+  right: 1500px;
+  font-style: italic;
+  font-weight: 1000;
+  font-size: larger;
+}
+
+.Princi {
+  position: absolute;
+  top: 2px;
+  height: 110px;
+  width: 2100px;
+  margin: 0;
+  box-shadow: 0 0 20px #c1c1e6;
+  cursor: pointer;
+  display: flex;
+}
+
+.inicio1 {
+  position: absolute;
+  top: 42px;
+  right: 1300px;
+}
+
+.quienes-somos1 {
+  position: absolute;
+  top: 42px;
+  right: 1120px;
+}
+
+.Planes {
+  position: absolute;
+  top: 42px;
+  right: 1000px;
+  justify-content: space-between;
+}
+
+.destinos {
+  position: absolute;
+  top: 42px;
+  right: 860px;
+  justify-content: space-between;
+}
+
+.servicios-adi {
+  position: absolute;
+  top: 42px;
+  right: 660px;
+  justify-content: space-between;
+}
+
+.ReseGale {
+  position: absolute;
+  top: 42px;
+  right: 490px;
+  justify-content: space-between;
+}
+
+.contactanos {
+  position: absolute;
+  top: 42px;
+  right: 308px;
+  justify-content: space-between;
+}
+
+.header {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(248, 253, 249, 0.3);
+  font-size: medium;
+  filter: brightness(0.9) saturate(1);
+  overflow: hidden;
+  background-image: white;
+  top: 130px;
+  position: absolute;
+}
+form {
+  padding: 50px 55px;
+  box-shadow: 0 0 20px #c1c1e6;
+  border-radius: 20px;
+  text-align: center;
+  width: 240px5;
+  font-size: medium;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+h2 {
+  color: rgb(37, 49, 49);
+  font-size: 50px;
+}
+
+label {
+  color: black;
+  font-size: 30px;
+  font-weight: 60px;
+  margin-bottom: 15px;
+}
+
+input,
+textarea {
+  padding: 17px 25px;
+  border-radius: 25px;
+  margin-bottom: 20px;
+  background-color: rgb(159, 233, 137);
+  border: 2px solid rgb(159, 233, 137);
+  color: rgb(37, 49, 49);
+  outline: none;
+}
+input::placeholder,
+textarea::placeholder {
+  color: white;
+}
+
+.form-txt {
+  margin-bottom: 5;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-txt a {
+  color: black;
+  font-size: 600;
+  text-decoration: none;
+}
+
+.bnt {
+  font-size: 16px;
+  border: 0;
+  border-radius: 25px;
+  box-shadow: 0 0 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #f29a2e;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  top: 1200px;
+  width: 100%;
+  overflow: hidden;
+}
