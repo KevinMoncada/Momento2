@@ -1,6 +1,6 @@
 # Momento3
 Paginas construidas con Bootstrap
--Login
--Sigin
--Galeria
--Servicios Adicionales
+-Login (Kevin)
+-Sign up (Garcia)
+-Galeria (Sara)
+-Servicios Adicionales (Alexis)
